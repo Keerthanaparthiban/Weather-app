@@ -1,13 +1,13 @@
 window.addEventListener("load", () => {
-  let long;
+  let lon;
   let lat;
 
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
       position => {
-        long = position.coords.longitude;
+        lon = position.coords.longitude;
         lat = position.coords.latitude;
-        const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=a55e102beeb2e059a11798410a6ad9d7
+        const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=a55e102beeb2e059a11798410a6ad9d7
         `;
         fetch(api)
           .then(response => {
