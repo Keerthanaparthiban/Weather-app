@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    30deg,
+    rgb(9, 5, 87) 0%,
+    rgba(16, 9, 121, 1) 19%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
