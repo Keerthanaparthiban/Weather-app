@@ -52,6 +52,12 @@ async function checkWeather(city) {
     else if (data.weather[0].main == "Rain") {
       weatherIcon.src = 'assets/rain.png';
     }
+    else if (data.weather[0].main == "Squall") {
+      weatherIcon.src = 'assets/squalls.png';
+    }
+    else if (data.weather[0].main == "Sand") {
+      weatherIcon.src = 'assets/sand.png';
+    }
 
     document.querySelector('.weather').style.display = 'block';
   }
