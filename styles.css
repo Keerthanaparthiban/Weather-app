@@ -5,36 +5,25 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  font-family: "Mulish", sans-serif;
-  background: rgb(22, 22, 22);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.764) 0%,
-    rgba(107, 169, 194, 0.79) 31%,
-    rgb(108, 160, 182) 65%,
-    rgb(33, 41, 61) 100%
-  );
-  /* background-color: #262c3d; */
-/* font-family: "Quicksand", sans-serif; */
-/* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    30deg,
-    rgb(9, 5, 87) 0%,s
-    rgba(16, 9, 121, 1) 19%,
-    rgba(0, 212, 255, 1) 100%
-  ); *
-}*/
-
 body {
   min-height: 100vh;
   background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+header img {
+  width: 60px;
 }
 
 .card {
